@@ -1,0 +1,22 @@
+# inherited field
+
+PartNumber = XBMR53D
+textbox,PackageSize 5mm Round (Blinking)
+select[red,green,yellow],Color Red
+select[diffused,spot],Lens Diffused
+textbox,Wavelength 660
+linkedList,Datasheets
+
+# inherited field
+
+Viewing Angle="60"
+
+# inherited field
+
+group,Intensity
+-textbox,Min 40
+-textbox,Typ 79
+-textbox,IF Vf=9V
+
+# item level
+textbox,Notes

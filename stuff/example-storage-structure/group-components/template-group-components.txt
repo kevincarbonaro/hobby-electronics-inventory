@@ -1,0 +1,11 @@
+# template describing the fields that this group requires.
+# fields are inherited down to the item level
+
+# Each sub level may have additional fields.
+
+textbox,PartNumber
+textbox,PackageSize
+select[red,green,yellow],Color
+select[diffused,spot],Lens
+textbox,Wavelength
+linkedList,Datasheets

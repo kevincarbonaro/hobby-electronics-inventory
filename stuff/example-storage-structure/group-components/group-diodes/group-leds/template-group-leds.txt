@@ -1,0 +1,11 @@
+# template describing the fields that this group requires.
+# fields are inherited down to the item level
+# an item folder cannot have sub-levels
+
+# This group needs an additional field for all the sub levels.
+
+group,Intensity
+-textbox,Min
+-textbox,Typ
+-textbox,IF
+textbox,Notes
