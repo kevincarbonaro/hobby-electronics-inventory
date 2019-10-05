@@ -1,0 +1,34 @@
+{
+    "items": [
+      {
+        "part-number": "GF9TY10",
+        "label": "5mm Round Blinking",
+        "datasheets": [
+          {
+            "path": "datasheets/",
+            "filename": "5mm-round-blinking.pdf"
+          },
+          {
+            "path": "datasheets/",
+            "filename": "dsroundblinking.pdf"
+          }
+        ],
+        "notes": "sample notes line 1\nsample notes line 2",
+        "viewing-angle": "60",
+        "color": "Red"
+      },
+      {
+        "part-number": "YGDT30J",
+        "label": "5mm Round",
+        "datasheets": [
+          {
+            "path": "datasheets/",
+            "filename": "dsround55.pdf"
+          }
+        ],
+        "notes": "sample notes line 1\nsample notes line 2",
+        "viewing-angle": "60",
+        "color": "Red"
+      }
+    ]
+}
