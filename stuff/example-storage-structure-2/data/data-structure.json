@@ -1,0 +1,69 @@
+{
+    "groups": {
+        "components": {
+            "label": "Components",
+            "fields": [
+                {
+                    "type": "textbox",
+                    "name": "part-number",
+                    "label": "Part Number"
+                },
+                {
+                    "type": "textbox",
+                    "name": "label",
+                    "label": "Label"
+                },
+                {
+                    "type": "list",
+                    "name": "datasheets",
+                    "label": "Datasheets"
+                },
+                {
+                    "type": "textbox",
+                    "name": "notes",
+                    "label": "Notes",
+                    "multiline": "yes"
+                }
+            ],
+            "groups": {
+                "diodes": {
+                    "label": "Diodes",
+                    "fields": [
+                        {
+                            "type": "textbox",
+                            "name": "viewing-angle",
+                            "label": "Viewing Angle"
+                        }
+                    ],
+                    "groups": {
+                        "leds": {
+                            "label": "leds",
+                            "fields": [
+                                {
+                                    "type": "select",
+                                    "name": "color",
+                                    "label": "Color",
+                                    "values": "Red, Green, Yellow"
+                                }
+                            ]
+                        },
+                        "resistors": {
+                            "label": "Resistors",
+                            "fields": [],
+                            "groups": {
+                                "linear": {
+                                    "label": "Linear",
+                                    "fields": []
+                                },
+                                "variable": {
+                                    "label": "Variable",
+                                    "fields": []
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
