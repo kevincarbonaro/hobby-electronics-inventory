@@ -4,3 +4,4 @@ from classes.storage import Storage
 
 storage = Storage("data/data-structure.json")
 storage.ReadDataStructure()
+#
