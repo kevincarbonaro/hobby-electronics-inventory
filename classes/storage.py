@@ -3,6 +3,7 @@
 
 import json
 
+
 class Storage:
 
     def __init__(self, path_data_structure):
