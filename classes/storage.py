@@ -1,8 +1,5 @@
 # This class is used to create an object enabling reading
 # and saving data to/from flat files
-class Storage
-
-<<<<<<< HEAD
 import json
 
 
@@ -16,6 +13,4 @@ class Storage:
     def ReadDataStructure(self):
         fileDataStructure = open(self.pathDataStructure)
         self.dataStructure = fileDataStructure.read()
-=======
     #
->>>>>>> parent of e7d0c98... Storage Class
