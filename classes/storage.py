@@ -1,7 +1,5 @@
-# This class is used to create an object enabling reading
-# and saving data to/from flat files
+# Class for taking care of anything related to reading and writing to disk.
 import json
-
 
 class Storage:
 
